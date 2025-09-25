@@ -29,19 +29,19 @@ const Footer = () => {
     {
       name: "LinkedIn",
       icon: <FaLinkedin />,
-      url: "https://linkedin.com/in/emmanuel-nzai",
+      url: "https://www.linkedin.com/in/emmanuel-nzai-9394b7263/",
       color: "hover:text-blue-400"
     },
-    {
-      name: "Twitter",
-      icon: <FaTwitter />,
-      url: "https://twitter.com/emmanuel-nzai",
-      color: "hover:text-blue-300"
-    },
+    // {
+    //   name: "Twitter",
+    //   icon: <FaTwitter />,
+    //   url: "https://twitter.com/emmanuel-nzai",
+    //   color: "hover:text-blue-300"
+    // },
     {
       name: "Email",
       icon: <FaEnvelope />,
-      url: "mailto:emmanuel.nzai@example.com",
+      url: "mailto:emmanuelnzai2@gmail.com",
       color: "hover:text-primary-400"
     }
   ];
@@ -124,9 +124,9 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold text-white mb-4">Get In Touch</h4>
               <div className="space-y-3 text-gray-400">
-                <p>📧 emmanuel.nzai@example.com</p>
-                <p>📱 +1 (555) 123-4567</p>
-                <p>🌍 San Francisco, CA</p>
+                <p>📧 emmanuelnzai2@gmail.com</p>
+                <p>📱 +254 740 615 901</p>
+                <p>🌍 Mombasa, Kenya</p>
               </div>
             </div>
           </div>
