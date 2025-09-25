@@ -25,14 +25,14 @@ const About = () => {
               {/* Floating stats */}
               <div className="absolute -top-4 -right-4 bg-dark-800 rounded-xl p-4 shadow-lg border border-dark-700">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">3+</div>
+                  <div className="text-2xl font-bold text-gradient">1+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
               </div>
 
               <div className="absolute -bottom-4 -left-4 bg-dark-800 rounded-xl p-4 shadow-lg border border-dark-700">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">60+</div>
+                  <div className="text-2xl font-bold text-gradient">1+</div>
                   <div className="text-sm text-gray-400">Projects Done</div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const About = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  I am a passionate full-stack developer with a focus on building
+                  I am a passionate junior full-stack developer with a focus on building
                   modern and responsive web applications. With a strong foundation
                   in both frontend and backend technologies, I strive to create
                   seamless and efficient user experiences.
@@ -105,15 +105,15 @@ const About = () => {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 pt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-gradient mb-2">3+</div>
+                  <div className="text-3xl font-bold text-gradient mb-2">1+</div>
                   <div className="text-gray-400">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-gradient mb-2">60+</div>
+                  <div className="text-3xl font-bold text-gradient mb-2">1+</div>
                   <div className="text-gray-400">Projects Completed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-gradient mb-2">10+</div>
+                  <div className="text-3xl font-bold text-gradient mb-2">1</div>
                   <div className="text-gray-400">Happy Clients</div>
                 </div>
               </div>
