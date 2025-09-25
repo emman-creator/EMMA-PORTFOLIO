@@ -66,7 +66,7 @@ const Footer = () => {
                   <span className="text-gradient">Emmanuel Nzai</span>
                 </h3>
                 <p className="text-gray-400 leading-relaxed mb-6">
-                  Full-Stack Developer passionate about creating exceptional digital experiences
+                  Junior Full-Stack Developer passionate about creating exceptional digital experiences
                   that make a difference. Always learning, always building.
                 </p>
               </div>
