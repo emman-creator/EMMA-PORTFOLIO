@@ -34,19 +34,19 @@ const Contact = () => {
     {
       icon: <FaEnvelope className="text-primary-400" />,
       label: "Email",
-      value: "emmanuel.nzai@example.com",
-      href: "mailto:emmanuel.nzai@example.com"
+      value: "emmanuelnzai2@gmail.com",
+      href: "mailto:emmanuelnzai2@gmail.com"
     },
     {
       icon: <FaPhone className="text-primary-400" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+254 740 615 901",
+      href: "tel:+254740615901"
     },
     {
       icon: <FaMapMarkedAlt className="text-primary-400" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Mombasa, Kenya",
       href: "#"
     }
   ];
