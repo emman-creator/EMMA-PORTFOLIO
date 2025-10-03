@@ -20,14 +20,25 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    try {
+      const response = await fetch('http://localhost:8000/api/contact/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
 
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
+      if (response.ok) {
+        setFormData({ name: '', email: '', message: '' });
+        alert('Thank you for your message! I will get back to you soon.');
+      } else {
+        const errorData = await response.json();
+        alert('Error: ' + JSON.stringify(errorData));
+      }
+    } catch (error) {
+      alert('Network error: ' + error.message);
+    }
+
     setIsSubmitting(false);
-
-    alert('Thank you for your message! I will get back to you soon.');
   };
 
   const contactInfo = [
@@ -46,7 +57,7 @@ const Contact = () => {
     {
       icon: <FaMapMarkedAlt className="text-primary-400" />,
       label: "Location",
-      value: "Mombasa, Kenya",
+      value: "Mombasa, Kenya[",
       href: "#"
     }
   ];
