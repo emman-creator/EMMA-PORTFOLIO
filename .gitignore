@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependency directories
+backend\env
+backend\db.sqlite3
